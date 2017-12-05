@@ -102,9 +102,11 @@ I choose to use dropout on two full connect layers to avoid overfitting, it work
 
 The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 100%. This compares favorably to the accuracy on the test set of 92.9%
 
-#### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+#### 3. top 5 softmax probabilities for each image along with the sign type of each probability.  Please refer to this chapter in my jupyter notebook 
 
-For the first image, the model is relatively sure that this is a Speed limit (120km/h) sign (probability of 0.977), and the image does contain a Speed limit (120km/h) sign. 
+Take the first image as an example, the model is relatively sure that this is a Speed limit (120km/h) sign (probability of 0.977), and the image does contain a Speed limit (120km/h) sign. 
+
+For visualization of the signs, I take reference of the https://github.com/kenshiro-o/CarND-Traffic-Sign-Classifier-Project, used function show_image_list() in his program to show the new images
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. I visualized two CNN layers in the Jupyter notebook. From the outcome we could see the first CNN layer mainly recognized the border, but I can't see clearly what characteristics the second CNN layer detect.
